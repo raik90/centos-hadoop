@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>hbase.rootdir</name>
+        <value></value>
+    </property>
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hbase.master</name>
+        <value>localhost:60000</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>localhost</value>
+    </property>
+</configuration>
